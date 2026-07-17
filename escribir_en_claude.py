@@ -15,10 +15,12 @@ except ImportError:
     sys.exit(1)
 
 MENSAJE = sys.argv[1] if len(sys.argv) > 1 else (
-    "Haceme un HTML de automatización para SIVO, mismo formato que los que venimos "
-    "realizando, que no sea con voz, no realices preguntas, realizalo según vos veas "
-    "que puede sumar para LinkedIn e Instagram, pero que no sea ninguno de los que "
-    "ya hemos realizado."
+    "Buscá las noticias más relevantes de hoy sobre inteligencia artificial en estas "
+    "fuentes: importai.substack.com, deeplearning.ai/the-batch, bensbites.com, "
+    "anthropic.com/news, openai.com/news, techcrunch.com/category/artificial-intelligence, "
+    "theverge.com/ai-artificial-intelligence, venturebeat.com/ai, "
+    "xataka.com/tag/inteligencia-artificial, noticias.ai. Rankeamelas de más a menos "
+    "importante con link de cada una."
 )
 USER_DATA_DIR = r"C:\PlaywrightProfiles\claude_profile"  # perfil propio del bot
 MODELO = "Opus 4.8"
